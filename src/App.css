@@ -9,7 +9,8 @@
     --border: #555550;
     --toolbar-bg: #292927;
     --sidepanel-bg: #343432;
-    --font-family: Georgia, Garamond, serif;
+    --font-family: Gidole, Georgia, Garamond, serif;
+    --text-font-family: Georgia, Garamond, serif;
     --sidebar-width: 320px;
 }
 
@@ -85,7 +86,7 @@
     background-color: var(--textbox-bg);
     color: var(--text);
     border: none;
-    font-family: var(--font-family);
+    font-family: var(--text-font-family);
     font-size: 16px;
     line-height: 1.6;
     caret-color: var(--accent);
@@ -115,7 +116,7 @@
     background-color: var(--textbox-bg);
     color: var(--text);
     border: none;
-    font-family: var(--font-family);
+    font-family: var(--text-font-family);
     font-size: 16px;
     line-height: 1.6;
     pointer-events: none;
